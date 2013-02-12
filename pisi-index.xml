@@ -1,0 +1,135 @@
+<PISI>
+    <Package>
+        <Name>par2cmdline</Name>
+        <Summary xml:lang="fr">Utilitaire en ligne de commande pour les fichiers PAR 2.0</Summary>
+        <Summary xml:lang="en">Command line implementation of the PAR v2.0 specification</Summary>
+        <Description xml:lang="en">Command line implementation of the PAR v2.0 specification</Description>
+        <IsA>app:console</IsA>
+        <PartOf>util.archive</PartOf>
+        <License>GPLv2</License>
+        <History>
+            <Update release="4">
+                <Date>2013-02-09</Date>
+                <Version>0.4</Version>
+                <Comment>Rebuild for Pardus-Anka</Comment>
+                <Name>Richard de Bruin</Name>
+                <Email>rr.debruin@gmail.com</Email>
+            </Update>
+            <Update release="3">
+                <Date>2010-01-14</Date>
+                <Version>0.4</Version>
+                <Comment>Add french translation and change packager</Comment>
+                <Name>Jérôme Schneider</Name>
+                <Email>jerome.schneider@gmail.com</Email>
+            </Update>
+            <Update release="2">
+                <Date>2009-07-27</Date>
+                <Version>0.4</Version>
+                <Comment>Add patches from Gentoo</Comment>
+                <Name>Jérôme Schneider</Name>
+                <Email>jerome.schneider@gmail.com</Email>
+            </Update>
+            <Update release="1">
+                <Date>2007-02-13</Date>
+                <Version>0.4</Version>
+                <Comment>First release.</Comment>
+                <Name>Bahadır Kandemir</Name>
+                <Email>bahadir@pardus.org.tr</Email>
+            </Update>
+        </History>
+        <BuildHost>localhost</BuildHost>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2013</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>716224</InstalledSize>
+        <PackageSize>71219</PackageSize>
+        <PackageHash>b478eaf3c5da7aa346a12e508cc6d2455a6833cf</PackageHash>
+        <PackageURI>par2cmdline-0.4-4-p13-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>par2cmdline</Name>
+            <Homepage>http://parchive.sourceforge.net/</Homepage>
+            <Packager>
+                <Name>Jérôme Schneider</Name>
+                <Email>jerome.schneider@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>kwooty</Name>
+        <Summary xml:lang="en">A friendly nzb usenet binary downloader for KDE4.</Summary>
+        <Description xml:lang="en">Kwooty supports file repairing (with use of par2 binary) and archive extraction (with use of unrar binary) when nzb download content has been achieved.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>network.download</PartOf>
+        <License>GPL</License>
+        <RuntimeDependencies>
+            <Dependency>qt</Dependency>
+            <Dependency>kdelibs</Dependency>
+            <Dependency>kde-workspace</Dependency>
+            <Dependency>p7zip</Dependency>
+            <Dependency>par2cmdline</Dependency>
+            <Dependency>unrar</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="6">
+                <Date>2013-02-08</Date>
+                <Version>0.9.1</Version>
+                <Comment>Version bump.</Comment>
+                <Name>Richard de Bruin</Name>
+                <Email>rr.debruin@gmail.com</Email>
+            </Update>
+            <Update release="5">
+                <Date>2012-06-17</Date>
+                <Version>0.8.4</Version>
+                <Comment>Version bump.</Comment>
+                <Name>Marcin Bojara</Name>
+                <Email>marcin.bojara@gmail.com</Email>
+            </Update>
+            <Update release="4">
+                <Date>2012-04-06</Date>
+                <Version>0.8.3</Version>
+                <Comment>Version bump.</Comment>
+                <Name>Marcin Bojara</Name>
+                <Email>marcin.bojara@gmail.com</Email>
+            </Update>
+            <Update release="3">
+                <Date>2012-03-03</Date>
+                <Version>0.8.2</Version>
+                <Comment>Version bump.</Comment>
+                <Name>Marcin Bojara</Name>
+                <Email>marcin.bojara@gmail.com</Email>
+            </Update>
+            <Update release="2">
+                <Date>2012-01-31</Date>
+                <Version>0.8.1</Version>
+                <Comment>Version bump.</Comment>
+                <Name>Marcin Bojara</Name>
+                <Email>marcin.bojara@gmail.com</Email>
+            </Update>
+            <Update release="1">
+                <Date>2011-12-31</Date>
+                <Version>0.8.0</Version>
+                <Comment>First release</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>localhost</BuildHost>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2013</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1438350</InstalledSize>
+        <PackageSize>323832</PackageSize>
+        <PackageHash>f063077b1a34d4689a71047695cf2b5eb3e36458</PackageHash>
+        <PackageURI>kwooty-0.9.1-6-p13-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>kwooty</Name>
+            <Homepage>http://kwooty.sourceforge.net/</Homepage>
+            <Packager>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>
