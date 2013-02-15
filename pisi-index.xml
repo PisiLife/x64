@@ -1,5 +1,236 @@
 <PISI>
     <Package>
+        <Name>appmenu-qt</Name>
+        <Summary xml:lang="en">Application menu for Qt</Summary>
+        <Summary xml:lang="tr">Qt için uygulama menüsü</Summary>
+        <Summary xml:lang="es">App para el menú de aplicaciones QT</Summary>
+        <Description xml:lang="en">appmenu-qt is an application menu for Qt.</Description>
+        <Description xml:lang="tr">appmenu-qt Qt için uygulama menüsüdür.</Description>
+        <Description xml:lang="es">appmenu-qt incluye soporte para el menú de aplicaciones QT.</Description>
+        <IsA>library</IsA>
+        <PartOf>unknown</PartOf>
+        <License>GPLv3</License>
+        <RuntimeDependencies>
+            <Dependency>libdbusmenu-qt</Dependency>
+            <Dependency>qt-devel</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2013-02-11</Date>
+                <Version>0.2.6</Version>
+                <Comment>Second release.</Comment>
+                <Name>Yoyo Fernández</Name>
+                <Email>parduslife@gmail.com</Email>
+            </Update>
+            <Update release="1">
+                <Date>2011-10-28</Date>
+                <Version>0.2.4</Version>
+                <Comment>First release.</Comment>
+                <Name>Metin Akdere</Name>
+                <Email>metin@pardus.org.tr</Email>
+            </Update>
+        </History>
+        <BuildHost>localhost</BuildHost>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2013</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>89116</InstalledSize>
+        <PackageSize>27888</PackageSize>
+        <PackageHash>533978a9f5cf6d9b76f963c445da017d5045a7ae</PackageHash>
+        <PackageURI>appmenu-qt-0.2.6-2-p13-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>appmenu-qt</Name>
+            <Homepage>https://launchpad.net/appmenu-qt</Homepage>
+            <Packager>
+                <Name>Metin Akdere</Name>
+                <Email>metin@pardus.org.tr</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>google-chrome</Name>
+        <Summary xml:lang="de">Google Chrome für Linux</Summary>
+        <Summary xml:lang="en">Google Chrome for Linux</Summary>
+        <Summary xml:lang="es">Google Chrome para Linux</Summary>
+        <Description xml:lang="de">Google Chrome ist ein Web-Browser der von Google Inc. entwickelt wird. Wichtige Bestandteile sind die Rendering-Engine Webkit, sowie die JavaScript Engine. Beliebt macht den Browser seine einfach zu bedienende Oberfläche und die hohe Geschwindigkeit.</Description>
+        <Description xml:lang="en">Google Chrome is another web browser which runs web pages and applications with lightning speed due to its superior JavaScript rendering engine.</Description>
+        <Description xml:lang="es">Google Chrome es un navegador web desarrollado por Google Inc... Usa el motor de renderizado WebKit, así como el motor de JavaScript. Un navegador popular con una interfaz fácil de usar y de alta velocidad.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>network.web</PartOf>
+        <License>EULA</License>
+        <Icon>google-chrome</Icon>
+        <RuntimeDependencies>
+            <Dependency>cairo</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>libXrender</Dependency>
+            <Dependency>icon-theme-hicolor</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>libevent</Dependency>
+            <Dependency>libXi</Dependency>
+            <Dependency>libXdamage</Dependency>
+            <Dependency>libXfixes</Dependency>
+            <Dependency>libXtst</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>minizip</Dependency>
+            <Dependency>nspr</Dependency>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>libXScrnSaver</Dependency>
+            <Dependency>icu4c</Dependency>
+            <Dependency>nss</Dependency>
+            <Dependency>cups</Dependency>
+            <Dependency>libxslt</Dependency>
+            <Dependency>freetype</Dependency>
+            <Dependency>jpeg</Dependency>
+            <Dependency>libgcrypt</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libvpx</Dependency>
+            <Dependency>flac</Dependency>
+            <Dependency>libpng</Dependency>
+            <Dependency>bzip2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="18" type="security">
+                <Date>2013-02-15</Date>
+                <Version>24.0.1312.70</Version>
+                <Comment>Version update</Comment>
+                <Name>Yoyo Fernández</Name>
+                <Email>parduslife@gmail.com</Email>
+            </Update>
+            <Update release="17" type="security">
+                <Date>2013-02-07</Date>
+                <Version>24.0.1312.69</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="16" type="security">
+                <Date>2013-01-20</Date>
+                <Version>24.0.1312.56</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="15" type="security">
+                <Date>2012-09-13</Date>
+                <Version>21.0.1180.89</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="14" type="security">
+                <Date>2012-08-09</Date>
+                <Version>21.0.1180.75</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="13" type="security">
+                <Date>2012-07-22</Date>
+                <Version>20.0.1132.57</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="12" type="security">
+                <Date>2012-05-17</Date>
+                <Version>19.0.1084.46</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="11">
+                <Date>2012-04-14</Date>
+                <Version>18.0.1025.162</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="10" type="security">
+                <Date>2012-03-29</Date>
+                <Version>18.0.1025.142</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="9" type="security">
+                <Date>2012-03-12</Date>
+                <Version>17.0.963.79</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="8" type="security">
+                <Date>2012-02-20</Date>
+                <Version>17.0.963.56</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="7">
+                <Date>2012-02-09</Date>
+                <Version>17.0.963.46</Version>
+                <Comment>Version update and make releasenumber equal to i686</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="5">
+                <Date>2011-12-02</Date>
+                <Version>15.0.874.121</Version>
+                <Comment>Version update and move runtimedep libpng12 to libpng12-pardususerde</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="4">
+                <Date>2011-11-13</Date>
+                <Version>15.0.874.120</Version>
+                <Comment>Version update and wrong package name in translations.xml (there was &quot;picasa&quot; - instead of &quot;google-chrome&quot;)</Comment>
+                <Name>Gürkan ZENGIN</Name>
+                <Email>gurkan@pardususer.de</Email>
+            </Update>
+            <Update release="3">
+                <Date>2011-09-20</Date>
+                <Version>14.0.835.163</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="2">
+                <Date>2011-08-20</Date>
+                <Version>13.0.782.112</Version>
+                <Comment>Version update</Comment>
+                <Name>Antoon Tolboom</Name>
+                <Email>atolboo@gmail.com</Email>
+            </Update>
+            <Update release="1">
+                <Date>2011-05-13</Date>
+                <Version>11.0.696.68</Version>
+                <Comment>First release.</Comment>
+                <Name>Gürkan ZENGIN</Name>
+                <Email>gurkan@pardususer.de</Email>
+            </Update>
+        </History>
+        <BuildHost>localhost</BuildHost>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2013</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>142856904</InstalledSize>
+        <PackageSize>36520632</PackageSize>
+        <PackageHash>ed752e305f9497618967696dd84dfd8019cd37e5</PackageHash>
+        <PackageURI>google-chrome-24.0.1312.70-18-p13-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>google-chrome</Name>
+            <Homepage>http://chrome.google.com/</Homepage>
+            <Packager>
+                <Name>Gürkan ZEGNIN</Name>
+                <Email>gurkan@pardususer.de</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>par2cmdline</Name>
         <Summary xml:lang="fr">Utilitaire en ligne de commande pour les fichiers PAR 2.0</Summary>
         <Summary xml:lang="en">Command line implementation of the PAR v2.0 specification</Summary>
